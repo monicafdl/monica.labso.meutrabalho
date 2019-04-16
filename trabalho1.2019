@@ -1,4 +1,5 @@
-Aluno: (Nome Aluno) matricula:(000000000000)
+
+Aluno: Mônica matricula:0050014916
 Prova de Laboratorio de Sistemas Operacionais
 Professor: Alex Salgado
 1o. Semestre de 2019   Turno: Noite            Trabalho (valo 1,5 pontos)
@@ -10,33 +11,46 @@ Com relação aos comandos do SO Linux, responda as perguntas abaixo:
 
 1. Crie 3 pastas com nomes de pasta1, pasta2 e pasta3
 (Cole aqui o(s) comandos utilizados)
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ mkdir pasta1
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ mkdir pasta2
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ mkdir pasta3
+
 
 2. Liste todo o conteúdo da pasta home e direcione a saída para um arquivo chamado access.log
 (Cole aqui o(s) comandos utilizados)
+ls > access.log
 
 3. Qual o comando para mostrar as últimas 4 linhas do arquivo access.log?
 (Cole aqui o(s) comandos utilizados)
-
+aluno.unilasalle@LB118UNI:~$ tail -4 access.log
 
 4. Usando apenas uma linha de comando, crie 3 arquivos em branco que comecem com seu nome e termina com 
 uma sequencia 1, 2 e 3. Ex.: alex1.txt, alex2.txt, alex3.txt. Que comando você utilizou?
 (Cole aqui o(s) comandos utilizados)
 
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ touch monica1.txt |touch  monica2.tx |touch  monica3.txt
+
 
 
 5. Copie os 3 arquivos criados anteriormente para a pasta2
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ cp monica1.txt pasta2
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ cp monica2.txt pasta2
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ cp monica3.txt pasta2
 
 
 6. A partir de sua pasta original(item 0), usando o comando find do linux, 
 diga quantos diretórios existem cujo nome começa com "pasta"? 
-Resposta1 (comando linux usado): 
-Resposta2 (numero de diretórios encontrados) :
+Resposta1 (comando linux usado): aluno.unilasalle@LB118UNI:~$ find -name pasta*
+Resposta2 (numero de diretórios encontrados) : 3
 
 7.listar o conteúdo de seu diretório e direcionar a saída para o primeiro arquivo do item 4
 (Cole aqui o(s) comandos utilizados)
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ ls > monica1.txt
 
 
 8.Mostre o conteudo do arquivo ultimocomando.txt e siga as instruções dele
+aluno.unilasalle@LB118UNI:~/monica.labso.meutrabalho$ cat ultimocomando.txt 
+
 
 
 

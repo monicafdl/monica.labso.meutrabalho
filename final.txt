@@ -1,0 +1,9 @@
+final.txt
+monica1.txt
+m.txt
+pasta1
+pasta2
+pasta3
+README.md
+trabalho1.2019
+ultimocomando.txt
